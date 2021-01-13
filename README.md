@@ -23,6 +23,6 @@ FixFile の rollback.csv を使用しファイル名を整えている状態で�
 ・[「まともな」フォルダ選択ダイアログ（Vista以降) - 簡単に FileOpenDialog を実装してみる](https://qiita.com/otagaisama-1/items/b0804b9d6d37d82950f7)
 
 # スクリーンショット
-![progress.png](https://github.com/SimplyRin/FileMover/blob/main/gif/progress.png?raw=true)
+![progress.png](https://github.com/SimplyRin/FileMover/blob/main/img/progress.png?raw=true)
 
-![main.png](https://github.com/SimplyRin/FileMover/blob/main/gif/progress.png?raw=true)
+![main.png](https://github.com/SimplyRin/FileMover/blob/main/img/progress.png?raw=true)
