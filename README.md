@@ -1,7 +1,7 @@
 # FileMover
 EPGStation で録画したファイルをアニメタイトル毎のフォルダに自動でコピーするソフト
 
-FixFile の rollback.csv を使用しファイル名を整えている状態でも、コピー済みのファイルはスキップしてくれます。
+[FixFile](https://github.com/SimplyRin/FixFile) の rollback.csv を使用しファイル名を整えている状態でも、コピー済みのファイルはスキップしてくれます。
 
 録画フォルダを Windows のエクスプローラーで見れる環境([Samba](https://qiita.com/k-Mata/items/8bee9e02e74565b6c147) など)を整えている状態が必要です。
 
