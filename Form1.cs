@@ -138,7 +138,7 @@ namespace FileMover {
 
                     // 小フォルダに保存オプションを判別して出力先を変更
                     var output = folder;
-                    if (tsBox.Checked && name.EndsWith(".ts")) {
+                    if (tsBox.Checked && (name.EndsWith(".ts") || name.EndsWith(".m2ts"))) {
                         output += "\\ts";
                     } else if (mp4Box.Checked && name.EndsWith(".mp4")) {
                         output += "\\mp4";
