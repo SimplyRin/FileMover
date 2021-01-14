@@ -127,8 +127,8 @@ namespace FileMover {
             foreach (var folder in folders) {
                 // 元フォルダのファイルをスキャン
                 foreach (var name in Directory.GetFiles(textBox1.Text, "*")) {
-                    // ファイル名が .ts, .mp4 出ない場合スキップ
-                    if (!(name.EndsWith(".ts") || name.EndsWith(".mp4"))) {
+                    // ファイル名が .ts, .mp4 ではない場合スキップ
+                    if (!(name.EndsWith(".ts") || name.EndsWith(".mp4") || name.EndsWith(".m2ts"))) {
                         continue;
                     }
                     // 名前にフォルダ名が含まれていない場合スキップ
