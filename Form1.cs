@@ -224,12 +224,14 @@ namespace FileMover {
                                 break;
                             }
                         }
+                        parser.Close();
 
                         if (_continue) {
                             ended++;
-                            this.Invoke((MethodInvoker)delegate {
+                            this.Invoke((MethodInvoker) delegate {
                                 miniConsole.AppendText("コピー済み: " + lastRow + "\n\n");
                             });
+                            continue;
                         }
                     }
 
