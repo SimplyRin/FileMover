@@ -80,7 +80,7 @@ namespace FileMover {
                     }
 
                     var title = Regex.Replace(name, pattern + "-", "");
-                    var _chars = new String[] { "第", "#", "STAGE" };
+                    var _chars = new String[] { "第", "#", "STAGE", "EPISODE0", "EPISODE1" };
 
                     foreach (var _char in _chars) {
                         if (title.Contains(_char)) {
